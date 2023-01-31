@@ -22,6 +22,7 @@ public class Work : MonoBehaviour
             if (text.Length> 0)
             {
                 lite.insert(text);
+                input.text = "";
             }
         });
     }
